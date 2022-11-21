@@ -137,6 +137,10 @@ const controlAddRecipe = async newRecipe => {
   }
 };
 
+const newFeature = () => {
+  console.log('Welcome to the app');
+};
+
 // We want to do this in the beginning and only once
 const init = () => {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -146,5 +150,6 @@ const init = () => {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
 };
 init();
