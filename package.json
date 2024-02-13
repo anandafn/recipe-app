@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^6.1.1",
     "parcel": "^2.7.0",
     "sass": "^1.70.0"
   },
